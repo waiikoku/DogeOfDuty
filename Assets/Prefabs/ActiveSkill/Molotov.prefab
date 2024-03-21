@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1824237638215300688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1824237638215300689}
+  - component: {fileID: 1824237638215300703}
+  - component: {fileID: 1824237638215300702}
+  m_Layer: 0
+  m_Name: Molotov
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1824237638215300689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824237638215300688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1824237638215300703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824237638215300688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7082761920f814a4fa27215ca0ae320e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_skill: {fileID: 11400000, guid: 34c575239bfe9654ca195b9493d7f444, type: 2}
+  m_level: 0
+  m_stat:
+    strength: 0
+    efficiency: 0
+    duration: 0
+    range: 0
+    cooldown: 0
+  isActive: 0
+  isCooldown: 0
+  isMultiple: 0
+  activeLoop: 1
+  molotov: {fileID: 3071930037066540734, guid: 181a5124e8a99e242b29fd6cabbe0ddb, type: 3}
+  spawnRate: 1
+  bottleAmount: 1
+  projectileSpeed: 10
+  projectileAngle: 45
+  molotovDmg: 5
+  offset: {x: 0, y: 0.5, z: 0}
+  offsetRadius: 2
+  zone: {fileID: 1824237638215300702}
+  targetTag: Enemy
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  FUCKINGLEVEL: 0
+  attributes:
+  - damage: 1
+    radius: 1
+    amount: 2
+  - damage: 2
+    radius: 1.5
+    amount: 3
+  - damage: 3
+    radius: 2
+    amount: 4
+  - damage: 4
+    radius: 2.5
+    amount: 5
+  - damage: 5
+    radius: 3
+    amount: 6
+--- !u!135 &1824237638215300702
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824237638215300688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}

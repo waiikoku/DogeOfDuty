@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5643db26aa9f2489ac68b7b7b87a9e, type: 3}
+  m_Name: ForcefieldUpgrade
+  m_EditorClassIdentifier: 
+  card: {fileID: 11400000, guid: 0d07bd6e51024694993d94e971e2471e, type: 2}
